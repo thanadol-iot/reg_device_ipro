@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "electron": "^26.2.0",
+    "express": "^4.18.2",
+    "libserialport": "^0.3.0",
+    "nodemon": "^3.0.1",
+    "pkg": "^5.8.1",
+    "serialport": "^12.0.0",
+    "socket.io-client": "^4.7.2",
+    "usb": "^2.10.0"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.2"
+  },
+  "name": "reg_device_iprotech",
+  "version": "1.0.0",
+  "main": "reg_device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node reg_device.js",
+    "build": "nexe"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
